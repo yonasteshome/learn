@@ -1,0 +1,55 @@
+.form1{
+    height: 475px;
+    width: 400px;
+    border-radius: 10%;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 300;
+    border: 5px solid green;
+    padding: 20px;
+    margin: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+}
+input{
+    width: 100%;
+}
+input[type="password"],[type="text"],[type="email"]{
+    margin-bottom: 15px;
+    background-color: aliceblue;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    height: 30px;
+    outline: none;
+}
+input[placeholder="enter username"],[placeholder="enter email"],[placeholder="enter password"]{
+background-color: aliceblue;}
+label{
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    background-color:green;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 8%;
+}
+h1{
+    color: black;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+@media (max-width:600px){
+    .form1{
+        width: 85%;
+        padding: 5px;
+    }
+}

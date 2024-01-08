@@ -1,0 +1,54 @@
+.nav-link{
+color: white;
+}
+.navbar-brand{
+color: whitesmoke;
+}
+button{
+color: whitesmoke;
+}
+#navbarNavAltMarkup{
+justify-content: end;
+}
+#whole{
+margin-top: 7%;
+justify-content: end;
+}
+.features{
+display: flex;
+flex-direction: row;
+}
+.statment{
+background-color: azure;
+font-size: 1.7rem;
+}
+#message{
+border-radius: 70px;
+}
+.card:hover{
+background-color: whitesmoke;
+}
+#front{
+height: 100%;
+width: 100%;
+}
+#check{
+display: flex;
+flex-direction: row;
+}
+#contact{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-size: larger;
+font-family: sans-serif;
+background-color: azure;
+border-radius: 10%;
+}
+@media(max-width:600px){
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+}
+
